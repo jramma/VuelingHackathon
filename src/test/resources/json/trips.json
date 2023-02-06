@@ -1,74 +1,47 @@
 [
   {
-    "TripName": "Europe Popular Capitals",
-    "TypeOfTrip": "Land Trip",
-    "Duration": "3 days",
-    "Cities": "Madrid, Paris, London",
-    "SpecificDetails": "Hotel Best Madrid 3*, Hotel Worst Paris 4*"
-  },
-  {
-    "TripName": "Europe laying out cities",
-    "TypeOfTrip": "Land Trip",
-    "Duration": "3 days",
-    "Cities": "Berlín, Madrid",
-    "SpecificDetails": "Hotel Best Madrid 3*, Hotel Worst Berlin 4*"
-  },
-  {
-    "TripName": "Infinite Egipt",
-    "TypeOfTrip": "Air Trip",
-    "Duration": "4 days",
-    "Cities": "Madrid, القاهرة‎, الأقصر‎",
-    "SpecificDetails": "Madrid 09:00, الأقصر‎ 10:00"
-  },
-  {
-    "TripName": "Incredible China",
-    "TypeOfTrip": "Air Trip",
-    "Duration": "10 days",
-    "Cities": "Barcelona, Madrid, 广州市, 北京市",
-    "SpecificDetails": "Madrid 09:00, 北京市 10:00"
-  },
-  {
-    "TripName": "Europe Popular Capitals",
-    "TypeOfTrip": "Land Trip",
-    "Duration": "3 days",
-    "Cities": [
+    "tripName": "Europe Popular Capitals",
+    "typeOfTrip": "Land Trip",
+    "duration": "3 days",
+    "cities": [
       "Madrid",
       "Paris",
       "London"
     ],
-    "SpecificDetails": "Hotel Best Madrid 3*, Hotel Worst Paris 4*"
+    "specificDetails": "Hotel Best Madrid 3*, Hotel Worst Paris 4*"
   },
   {
-    "TripName": "Europe laying out cities",
-    "TypeOfTrip": "Land Trip",
-    "Duration": "3 days",
-    "Cities": [
+    "tripName": "Europe laying out cities",
+    "typeOfTrip": "Land Trip",
+    "duration": "3 days",
+    "cities": [
       "Berlín",
       "Madrid"
     ],
-    "SpecificDetails": "Hotel Best Madrid 3*, Hotel Worst Berlin 4*"
+    "specificDetails": "Hotel Best Madrid 3*, Hotel Worst Berlin 4*"
   },
   {
-    "TripName": "Infinite Egypt",
-    "TypeOfTrip": "Air Trip",
-    "Duration": "4 days",
-    "Cities": [
+    "tripName": "Infinite Egypt",
+    "typeOfTrip": "Air Trip",
+    "duration": "4 days",
+    "cities": [
       "Madrid",
       "القاهرة‎",
       "الأقصر‎"
     ],
-    "SpecificDetails": "Madrid 09:00, الأقصر‎ 10:00"
+    "specificDetails": "Madrid 09:00, الأقصر‎ 10:00"
   },
   {
-    "TripName": "Incredible China",
-    "TypeOfTrip": "Air Trip",
-    "Duration": "10 days",
-    "Cities": [
+    "tripName": "Incredible China",
+    "typeOfTrip": "Air Trip",
+    "duration": "10 days",
+    "cities": [
       "Barcelona",
       "Madrid",
       "广州市",
       "北京市"
     ],
-    "SpecificDetails": "Madrid 09:00, 北京市 10:00"
+    "specificDetails": "Madrid 09:00, 北京市 10:00"
   }
 ]
+

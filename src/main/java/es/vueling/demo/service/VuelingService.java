@@ -6,6 +6,7 @@ import es.vueling.demo.repository.TripRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Collections;
 import java.util.List;
 
 @Service
@@ -17,7 +18,7 @@ public class VuelingService {
 
     public void test() {
         cityRepo.findByNameContainingIgnoreCase("mad");
-        tripRepo.findByCitiesContaining("mad");
+        tripRepo.findByCitiesContaining("Madrid");
     }
     public List<String> getCity(String city) {
         //it dosen´t matter if city length is 3 or more but always will be more or equal than

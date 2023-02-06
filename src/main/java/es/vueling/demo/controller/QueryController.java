@@ -3,6 +3,7 @@ package es.vueling.demo.controller;
 
 import es.vueling.demo.domain.City;
 import es.vueling.demo.domain.Trip;
+import es.vueling.demo.dto.ResponseDto;
 import es.vueling.demo.repository.CityRepo;
 import es.vueling.demo.service.VuelingService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,21 +34,21 @@ public class QueryController {
     }
 
     @GetMapping("/search/{place}")
-    public String getPlace(@PathVariable String place) {
+    public ResponseDto getPlace(@PathVariable String place) {
         String answer = "";
-        ArrayList<List<Trip>> trips = new ArrayList<>();
         List<String> cities = vuelingService.getCity(place);
+       ArrayList <List<Trip>> trips = null;
         if (cities.size() == 0) {
             answer = "City not found";
         } else {
+            answer = "Trips found";
+
             for (int i = 0; i < cities.size(); i++) {
                 trips.add(vuelingService.getTrip(cities.get(i)));
 
             }
-            answer = trips.toString();
         }
-
-        return answer;
+        return new ResponseDto(answer, trips);
 
     }
 }

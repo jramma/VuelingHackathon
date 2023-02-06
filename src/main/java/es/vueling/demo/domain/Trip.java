@@ -16,7 +16,7 @@ public abstract class Trip {
     private String tripName;
     private String typeOfTrip;
     private String duration;
-    private String Cities;
+    private String [] cities;
     private String specificDetails;
 
 }
