@@ -10,13 +10,5 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ResponseDto {
-    private String tripName;
-    private String typeOfTrip;
-    private String duration;
-    private String[] nameofCities;
-    private String details;
-
-
-
-
+    private String response;
 }
