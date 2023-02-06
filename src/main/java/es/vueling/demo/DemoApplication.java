@@ -13,7 +13,7 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		try {
-			Desktop.getDesktop().browse(new URI("http://localhost:9797/SearchInterface.html"));
+			Desktop.getDesktop().browse(new URI("http://localhost:9797/search.html"));
 		} catch (IOException | URISyntaxException e) {
 			e.printStackTrace();
 		}

@@ -5,7 +5,7 @@ public abstract class Trip {
     private String name;
     private String cities;
     private String details;
-    private String duration = "3 days";
+    private String duration;
 
     public Trip(String name, String cities, String details, String duration) {
         this.name = name;

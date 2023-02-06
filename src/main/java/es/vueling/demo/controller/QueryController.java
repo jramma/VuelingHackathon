@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.reactive.result.view.RedirectView;
+import org.springframework.web.servlet.ModelAndView;
 
 @RestController
 @RequestMapping("/vueling/api")
@@ -15,7 +17,12 @@ public class QueryController {
     public String test() {
         return "Hello from Vueling!!!";
     }
-    @GetMapping("/{place}")
+    @GetMapping("/search")
+    public RedirectView redirectToSearchPage() {
+        return new RedirectView("http://localhost:9797/search.html");
+    }
+
+    @GetMapping("/search/{place}")
     public String getPlace(@PathVariable String place) {
 
 

@@ -1,0 +1,164 @@
+{
+  "cities": [
+    {
+      "name": {
+        "english": "London",
+        "spanish": "Londres",
+        "arabic": "لندن",
+        "chinese": "伦敦"
+      }
+    },
+    {
+      "name": {
+        "english": "Paris",
+        "spanish": "París",
+        "arabic": "باريس",
+        "chinese": "巴黎"
+      }
+    },
+    {
+      "name": {
+        "english": "Madrid",
+        "spanish": "Madrid",
+        "arabic": "مدريد",
+        "chinese": "马德里"
+      }
+    },
+    {
+      "name": {
+        "english": "Berlin",
+        "spanish": "Berlín",
+        "arabic": "برلين",
+        "chinese": "柏林"
+      }
+    },
+    {
+      "name": {
+        "english": "Cairo",
+        "spanish": "El Cairo",
+        "arabic": "القاهرة",
+        "chinese": "开罗"
+      }
+    },
+    {
+      "name": {
+        "english": "Barcelona",
+        "spanish": "Barcelona",
+        "arabic": "برشلونة",
+        "chinese": "巴塞罗那"
+      }
+    },
+    {
+      "name": {
+        "english": "Guangzhou",
+        "spanish": "Guangzhou",
+        "arabic": "广州",
+        "chinese": "广州"
+      }
+    },
+    {
+      "name": {
+        "english": "Beijing",
+        "spanish": "Pekín",
+        "arabic": "北京",
+        "chinese": "北京"
+      }
+    },
+    {
+      "name": {
+        "english": "London",
+        "spanish": "Londres",
+        "arabic": "لندن",
+        "chinese": "伦敦"
+      }
+    },
+    {
+      "name": {
+        "english": "Paris",
+        "spanish": "París",
+        "arabic": "باريس",
+        "chinese": "巴黎"
+      }
+    },
+    {
+      "name": {
+        "english": "Madrid",
+        "spanish": "Madrid",
+        "arabic": "مدريد",
+        "chinese": "马德里"
+      }
+    },
+    {
+      "name": {
+        "english": "Berlin",
+        "spanish": "Berlín",
+        "arabic": "برلين",
+        "chinese": "柏林"
+      }
+    },
+    {
+      "name": {
+        "english": "Cairo",
+        "spanish": "El Cairo",
+        "arabic": "القاهرة",
+        "chinese": "开罗"
+      }
+    },
+    {
+      "name": {
+        "english": "Barcelona",
+        "spanish": "Barcelona",
+        "arabic": "برشلونة",
+        "chinese": "巴塞罗那"
+      }
+    },
+    {
+      "name": {
+        "english": "Guangzhou",
+        "spanish": "Guangzhou",
+        "arabic": "广州",
+        "chinese": "广州"
+      }
+    },
+    {
+      "name": {
+        "english": "Beijing",
+        "spanish": "Pekín",
+        "arabic": "北京",
+        "chinese": "北京"
+      }
+    },
+    {
+      "name": {
+        "english": "Rome",
+        "spanish": "Roma",
+        "arabic": "روما",
+        "chinese": "罗马"
+      }
+    },
+    {
+      "name": {
+        "english": "Tokyo",
+        "spanish": "Tokio",
+        "arabic": "東京",
+        "chinese": "东京"
+      }
+    },
+    {
+      "name": {
+        "english": "Dubai",
+        "spanish": "Dubai",
+        "arabic": "دبي",
+        "chinese": "迪拜"
+      }
+    },
+    {
+      "name": {
+        "english": "Shanghai",
+        "spanish": "Shanghai",
+        "arabic": "上海",
+        "chinese": "上海"
+      }
+    }
+  ]
+}
