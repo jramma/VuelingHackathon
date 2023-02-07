@@ -3,6 +3,10 @@
 Solution for the Vueling Hackathon 2023 
 (https://nuwe.io/dev/competitions/vueling-tech-hack/travel-search-backend-challenge) 
 
+Los métodos POST son la solución a crear una API "que sea ampliable"
+La web y el buscador son la solución al problema principal. La API no discrimina en idiomas, se puede añadir a la base de datos ciudades en el idioma que quieras así como Trips.
+
+
 ## Instalación
 
 El proyecto puede ser descargado en un archivo .zip y hacerlo funcionar en tu IDE.
