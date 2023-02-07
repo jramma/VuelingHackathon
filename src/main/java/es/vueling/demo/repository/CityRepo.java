@@ -9,4 +9,7 @@ import java.util.List;
 public interface CityRepo extends MongoRepository<City, String> {
 
     List<String> findByNameContainingIgnoreCase(String name);
+
+
 }
+// Author: peperamos.cat

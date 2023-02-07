@@ -8,6 +8,7 @@ import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -15,5 +16,7 @@ import java.util.List;
 @Setter
 public class ResponseDto {
     private String response;
-    private ArrayList <List<Trip>> trips;
+    private Set<Trip> trips;
+
 }
+// Author: peperamos.cat
