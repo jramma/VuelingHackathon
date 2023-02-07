@@ -38,9 +38,19 @@ en test>resources>json tienes los json que me he inventado para la base de datos
 
 >> Tras ejecutar el programa en tu IDE:
 
+![vueling](https://user-images.githubusercontent.com/107991714/217307228-03077013-b149-4dfb-aec5-d8d99e46bf65.gif)
+
+
+
 >> Cómo subir una nueva ciudad en cualquier idioma:
 > http://localhost:9797/vueling/api/addCity
 
+<img width="1014" alt="Captura de pantalla 2023-02-07 a las 17 35 53" src="https://user-images.githubusercontent.com/107991714/217307092-fa7428a5-2fdb-4247-978f-9ba15e3de91b.png">
 
 >> Cómo subir un Trip en cualquier idioma:
 > http://localhost:9797/vueling/api/addTrip
+
+
+<img width="1025" alt="Captura de pantalla 2023-02-07 a las 17 37 29" src="https://user-images.githubusercontent.com/107991714/217307053-1fd414f2-1612-48be-a5e4-db7ec84a96be.png">
+
+
