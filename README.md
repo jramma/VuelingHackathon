@@ -39,6 +39,8 @@ en test>resources>json tienes los json que me he inventado para la base de datos
 >> Tras ejecutar el programa en tu IDE:
 
 >> Cómo subir una nueva ciudad en cualquier idioma:
+> http://localhost:9797/vueling/api/addCity
 
 
 >> Cómo subir un Trip en cualquier idioma:
+> http://localhost:9797/vueling/api/addTrip
